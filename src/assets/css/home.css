@@ -1,0 +1,164 @@
+#main-content #navbar .btn-secondary.btn-sm {
+    padding: 10px;
+    width: 120px;
+}
+
+#main-content #content .title {
+    width: 300px;
+    height: auto;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 65px;
+}
+
+#main-content #content .trigger-text {
+    padding: 150px 50px;
+}
+
+#main-content #content .trigger-text .box-stats .box-storage,
+#main-content #content .trigger-text .box-stats .box-verified,
+#main-content #content .trigger-text .box-stats .box-download {
+    width: 150px;
+    height: 100px;
+}
+
+#main-content #content .trigger-text .box-stats .title {
+    width: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+}
+
+#main-content #content .trigger-text .box-stats img {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+#main-content #benefits h1,
+#main-content #items h1,
+#main-content #achievements h1 {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 51px;
+    font-family: 'Bad Script';
+    font-style: italic;
+    color: #F2418F;
+}
+
+#main-content #benefits h2,
+#main-content #items h2,
+#main-content #achievements h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    margin-top: -5px;
+}
+
+#main-content #benefits h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#main-content #benefits p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#main-content #items .card .img-items {
+    width: 295px;
+    height: 360px;
+    border-radius: 24px;
+}
+
+#main-content #items .card .img-items:hover{
+    cursor: pointer;
+    transition: all 0.7s;
+    transform: scale(1.05);
+}
+
+#main-content #items .card .img-lego {
+    background: url('../images/lego.png');
+}
+
+#main-content #items .card .img-tiger {
+    background: url('../images/tiger.png');
+}
+
+#main-content #items .card .img-dota {
+    background: url('../images/dota.png');
+}
+
+#main-content #items .card .img-crypto {
+    background: url('../images/crypto.png');
+}
+
+
+#main-content #items .card {
+    background: transparent;
+}
+
+#main-content #items .card .card-body {
+    padding-left: 0;
+}
+
+#main-content #items .card h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+#main-content #items .card p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#main-content #achievements .text-end {
+    position: relative;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+#main-content #achievements .text-end {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+#main-content #achievements h5 {
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: bold;
+}
+
+#main-content #achievements p {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+}
+
+
+#main-content footer {
+    border-top: 2px solid #1b1b1b;
+    height: 400px;
+}
+
+#main-content footer h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+}
+
+#main-content footer h2 {
+    font-size: 24px;
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+}

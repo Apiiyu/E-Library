@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Raleway:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    background: #090811;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+    color: #FEFCFD;
+}
+
+p, a{
+    color: #B6B1DE !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover, .nav-link:hover{
+    color: #fff !important;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.nav-item .nav-link.active{
+    color: #F76E10 !important;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background: #F76E10 !important;
+    border: 1px solid #F76E10;
+    border-radius: 127.273px;
+    color: #FFF;
+}
+
+.btn-primary.btn-lg{
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-secondary{
+    background: #2D1959;
+    border: 1px solid #2D1959;
+}
+
+.btn-secondary:hover{
+    background: #401f88;
+    transition: all 0.3s ease;
+}
+
+.card {
+    background: #171717;
+    -webkit-box-shadow: -32px 48px 60px rgba(22, 23, 28, 0.04);
+    box-shadow: -32px 48px 60px rgba(22, 23, 28, 0.04);
+    border-radius: 12px;
+    padding: 52px 52px 40px;
+    border: none;
+}
+
+label{
+    color: #FEFCFD;
+    font-size: 16px;
+}
+
+.form-control{
+    background: #202020;
+    border-radius: 28px;
+    border: none;
+    padding: 16px 20px;
+    height: 56px;
+    font-weight: 600 !important;
+}
+
+.form-control:focus{
+    outline: none;
+    background: #202020;
+}
+
+.table-responsive {
+    overflow-x: hidden;
+}
+
+.table-responsive tr th:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 20px;
+}
+
+.table.b-table>thead>tr>[aria-sort=ascending] {
+    background-image: none;
+}
+
+.table.b-table>thead>tr>[aria-sort=none]{
+    background-image: none;
+}
+
+.table-responsive tr th:last-child{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.table-responsive tr th{
+    border: none !important;
+}
+
+.table-responsive tr th:first-child{
+    border-top-left-radius: 15px
+} 
+
+.table-responsive tr th:last-child {
+    border-top-right-radius: 15px
+}
+
+.table-responsive tr th{
+    color: #fff;
+    background: #202020;
+    font-size: 14px;
+}
+
+.table-responsive tr td{
+    border: none ;
+    font-size: 12px;
+    color: #B6B1DE !important;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.table-responsive tr td:first-child{
+    padding-left: 30px;
+}
+
+.form-error {
+    color: red;
+    margin-top: 10px;
+}
+
+.breadcrumb{
+    background: transparent;
+}
+
+.breadcrumb .breadcrumb-item.active span{
+    color: #F76E10;
+}
+
+.custom-file-label{
+    background: transparent;
+    border: none;
+    top: 10px;
+}
+
+.custom-file-label::after {
+    background: #303030;
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 14px;
+    right: 10px;
+}
+
+.form-group .dropdown-menu.show,
+.form-group .dropdown-menu.show .b-calendar-grid-help{
+    background: transparent !important;
+}
+
+.form-group .dropdown-menu.show output{
+    padding-top: 1rem;
+}

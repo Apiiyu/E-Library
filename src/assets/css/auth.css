@@ -1,0 +1,11 @@
+#auth #main-content h1{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#auth #main-content a{
+    color: #FEFCFD !important;
+}
